@@ -10,6 +10,7 @@ public class Endpoint2Servlet {
     private Dependency1 ejbTest;
     
     public String hallo(String welt) {
+        ejbTest.dummy();
         return "Hallo " + welt + " (Servlet)";
     }
 }

@@ -14,6 +14,7 @@ public class Endpoint1Ejb {
     private Dependency2 ejbTest2;
     
     public String hallo(String welt) {
+        ejbTest2.dummy();
         return "Hallo " + welt + " (EJB)";
     }
 }
